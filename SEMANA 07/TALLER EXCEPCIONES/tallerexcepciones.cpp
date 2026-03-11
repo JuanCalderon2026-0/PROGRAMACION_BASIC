@@ -3,7 +3,7 @@
 #include <stdexcept>
 #include <limits>
 using namespace std;
-// EXCEPCION PERSONALIZADA
+// EXCEPCION PERSONALIZADAA
 class CuentaNoEncontrada : public runtime_error {
 public:
     CuentaNoEncontrada(const string& mensaje)
